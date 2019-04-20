@@ -21,5 +21,9 @@
       "@components": "src/app/shared/components",
       "@static": "src/static"
     }
+  },
+  "spa": {
+    "appShellRoute": "/",
+    "additionalRoutes": ["/form"]
   }
 }
